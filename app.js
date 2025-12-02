@@ -250,4 +250,177 @@
 // }
 
 
+// // Escreva um código que verifique se a senha fornecida é "1234".
+// let senha = "1234"
+// if (senha === "1234") {
+//     console.log("A senha esta exatamente correta")
+// } else {
+//     console.log("A senha esta errada")
+// }
 
+
+// Escreva um código que verifique se um número é múltiplo de 3 ou 5. 
+
+// let numero = 15
+// if (numero % 3 === 0 || numero % 5 === 0) {
+//     console.log("Ele é múltiplo")
+// } else {
+//     console.log("Não é múltiplo")
+// }
+
+
+// Escreva um código que compare dois números e informe qual deles é maior ou se eles são iguais.
+
+
+// let numero1 = 2000
+// let numero2 = 2000
+// if (numero1 > numero2) {
+//     console.log(" O primeiro numero e maior")
+// } else if (numero2 > numero1) {
+//     console.log("O numero 2 e maior")
+// } else {
+//     console.log("Os numeros são iguais")
+// }
+
+
+// Escreva um código que verifique se um número é divisível por 7.
+
+// let numero = 20
+
+// if (numero %7 === 0) {
+//     console.log("E divisivel ")
+// } else {
+//     console.log("Não e divisivel meu mano")
+// }
+
+// Escreva um código que verifique se uma pessoa tem o nome "Maria"
+
+// let nome = "Maria"
+
+// if (nome ==="Maria") {
+//     console.log("O nome consta")
+// } else {
+//     console.log("O nome não consta")
+// }
+
+
+
+// TRABALHANDO COM FUNÇÕES 
+
+// Escreva uma função chamada soma que aceita dois números como parâmetros e retorna a soma deles.
+
+// function somar(numero1, numero2) {
+//     let somando = numero1 + numero2
+//     return somando
+// }
+
+// console.log(somar(2, 5)) 
+
+// // Escreva uma função chamada maiorNumero que aceita três números como parâmetros e retorna o maior deles.
+
+// function maiorNumero(numero1,numero2,numero3) {
+//     if (numero1 >numero2 && numero1 > numero3) {
+//         console.log("O primeiro numero1 e maior que o segundo e o terceiro")
+//     }  else if(numero2 > numero1 && numero2 > numero3){
+//            console.log("O numero dois e maior que todos eles")
+//     }  else if(numero3 > numero1 && numero3 > numero2){
+//               console.log("O numero 3 e maior que todos eles")
+//     }
+// } 
+// maiorNumero(23000,5400,600)
+
+
+// Escreva uma função chamada calcularFatorial que aceita um número como parâmetro e retorna o fatorial desse número.
+
+// function calcularFatorial(numero) {
+//     let resultado = 1;
+
+//     for (let i = numero; i > 1; i--) {
+//         resultado *= i;
+//     }
+
+//     return resultado;
+// }
+// console.log(calcularFatorial(5)); 
+
+
+// USANDO O METODO DO FOR PARA TREINAR PARA AS SOFTS SKILLS
+
+
+// Contagem Regressiva
+// for (let index = 10; index >= 0; index--) {
+
+//     console.log(index)
+// }
+
+
+// Contagem de Números Pares
+
+// for (let i = 0; i <= 20; i += 2) {
+//     console.log(i);
+// }
+
+// Utilize um loop para imprimir todos os números pares de 1 a 20 no console.
+
+// for (let index = 0; index < 20; index++) {
+//     console.log(index)
+// }
+
+
+// Contagem de Números Ímpares
+// for (let index = 0; index < 20; index+=3) {
+
+//     console.log(index)
+// }
+
+
+// Soma de Números
+
+// for (let index = 0; index < 30; index+2) {
+
+//     console.log(index)
+// }
+
+// 	1. Imprimir o nome de todos os objetos
+// Use um laço for para imprimir o nome de cada pessoa no array arrayObj.
+
+// const nomes = [
+//     { id: 1, nome: "Ana" },
+//     { id: 2, nome: "Carlos" },
+//     { id: 3, nome: "Fernanda" },
+//     { id: 4, nome: "João" },
+//     { id: 5, nome: "Maria" },
+//     { id: 6, nome: "Pedro" },
+//     { id: 7, nome: "Lucas" },
+//     { id: 8, nome: "Beatriz" },
+//     { id: 9, nome: "Roberta" },
+//     { id: 10, nome: "Gustavo" }
+//   ]
+
+
+//   for (let index = 0; index < nomes.length; index++) {
+//     console.log(nomes[index].nome)
+//   }
+
+// 2. Filtrar objetos pelo cargo "Student"
+// Use um for para encontrar todos os objetos em que o role seja "Student" e imprima o nome dessas pessoas.
+
+// const nomes = [
+//   { id: 1, nome: "Ana", roles: "student" },
+//   { id: 2, nome: "Carlos", roles: "student" },
+//   { id: 3, nome: "Fernanda", roles:  "teacher" },
+//   { id: 4, nome: "João", roles:"student",  },
+//   { id: 5, nome: "Maria", roles:  "teacher" },
+//   { id: 6, nome: "Pedro", roles: "student" },
+//   { id: 7, nome: "Lucas", roles: "student"},
+//   { id: 8, nome: "Beatriz", roles:  "teacher" },
+//   { id: 9, nome: "Roberta", roles: "student" },
+//   { id: 10, nome: "Gustavo", roles:  "teacher" }
+// ];
+
+
+// for (let index = 0; index < nomes.length; index++) {
+//     if (nomes[index].roles === "student") {
+//         console.log(nomes[index].nome);
+//     }
+// }
